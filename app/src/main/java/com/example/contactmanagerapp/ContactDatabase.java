@@ -14,7 +14,7 @@ import androidx.room.RoomDatabase;
 public abstract class ContactDatabase extends RoomDatabase {
 
 
-    public abstract ContactDAO getContactDAO;
+    public abstract ContactDAO getContactDAO();
 
 
     // Singleton Pattern
@@ -27,4 +27,5 @@ public abstract class ContactDatabase extends RoomDatabase {
         }
         return dbInstance;
     }
+
 }

@@ -25,8 +25,7 @@ public class Contacts {
 
 
     // Constructor
-    public Contacts(int id, String name, String email) {
-        this.id = id;
+    public Contacts( String name, String email) {
         this.name = name;
         this.email = email;
     }
